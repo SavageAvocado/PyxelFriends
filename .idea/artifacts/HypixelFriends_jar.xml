@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HypixelFriends:jar">
+    <output-path>$PROJECT_DIR$/../../.Compiled Output</output-path>
+    <root id="archive" name="HypixelFriends.jar">
+      <element id="module-output" name="HypixelFriends" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/resources/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/resources/plugin.yml" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,13 @@
+name: HypixelFriends
+description: None.
+
+author: SavageAvocado.
+website: savagedev.net
+
+main: net.savagedev.hf.HypixelFriends
+version: 0.1
+
+commands:
+  friend:
+    aliases: [friends, f]
+    description: No.
