@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'net.savagedev'
+version '1.1.0-SNAPSHOT'
+
+repositories {
+    mavenLocal()
+    maven {
+        url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots'
+    }
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.17-R0.1-SNAPSHOT'
+}
+
+processResources {
+    duplicatesStrategy = DuplicatesStrategy.INCLUDE
+    from(sourceSets.main.resources.srcDirs) {
+        expand 'version': project.version
+        include 'plugin.yml'
+    }
+}

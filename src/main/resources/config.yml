@@ -1,0 +1,133 @@
+options:
+  friend-add-timeout: 5 # minutes.
+  max-friends: # hypixelfriends.limit.<perm>
+    default: 25
+    vip: 50 # Ex. hypixelfriends.limit.vip
+    vip+: 100
+    mvp: 200
+    mvp+: 500
+
+messages:
+  invalid-arguments: "&cInvalid usage! Valid usage: '/%0%'"
+  player-not-found: "&cCan't find a player by the name of '%0%'"
+  no-permission: "&cYou do not have permission to execute this command!"
+  invalid-input: "&cInvalid input '%0%'"
+  invalid-page-number:
+  - "&9&l-------------------------------------------"
+  - "&cInvalid page number!"
+  - "&9&l-------------------------------------------"
+  help:
+  - "&9&l-------------------------------------------"
+  - "&aFriend commands:"
+  - "&e/friend help &7- &bPrints this help message"
+  - "&e/friend add &7- &bAdds a player as a friend"
+  - "&e/friend accept &7- &bAccept a friend request"
+  - "&e/friend deny &7- &bDecline a friend request"
+  - "&e/friend list &7- &bList your friends"
+  - "&e/friend remove <player> &7- &bRemove a player from your friends"
+  - "&e/friend requests &7- &bView friend requests"
+  - "&e/friend toggle &7- &bToggle friend requests"
+  - "&e/friend removeall &7- &bRemove all your friends"
+  - "&9&l-------------------------------------------"
+  max-friends:
+  - "&9&l-------------------------------------------"
+  - "&cYou have reached the maximum of %0% friends. To add more friends please remove some. If you wish to clear your friends list, please contact support."
+  - "&9&l-------------------------------------------"
+  request-sent:
+  - "&9&l-------------------------------------------"
+  - "&eYou sent a friend request to %0%&e! They have %1% minutes to accept it!"
+  - "&9&l-------------------------------------------"
+  friend-request-header:
+  - "&9&l-------------------------------------------"
+  - "&eFriend request from %0%"
+  friend-request-options: "&eClick one: "
+  request-option-accept: "&a&l[ACCEPT]"
+  spacer: " &8- "
+  request-option-deny: "&c&l[DENY]"
+  friend-request-footer:
+  - "&9&l-------------------------------------------"
+  request-accepted:
+  - "&9&l-------------------------------------------"
+  - "&aYou are now friends with %0%"
+  - "&9&l-------------------------------------------"
+  request-denied:
+  - "&9&l-------------------------------------------"
+  - "&eDeclined %0%&e's friend request!"
+  - "&9&l-------------------------------------------"
+  request-expired-sender:
+  - "&9&l-------------------------------------------"
+  - "&eYour friend request to %0% has expired."
+  - "&9&l-------------------------------------------"
+  pending-requests:
+  - "&9&l-------------------------------------------"
+  - "&aYou have %0% pending friend requests."
+  - "&eUse &b/f requests &eto see them!"
+  - "&9&l-------------------------------------------"
+  request-expired-receiver:
+  - "&9&l-------------------------------------------"
+  - "&eYour friend request from %0% has expired."
+  - "&9&l-------------------------------------------"
+  list-header:
+  - "&9&l-------------------------------------------"
+  list-page: " &6Friends (Page %1% of %2%): "
+  last-page: "&e«"
+  next-page: "&e»"
+  list-status:
+    online: " &ais online (%0%)"
+    offline: " &cis offline"
+  list-format: "%0% %1%"
+  list-footer:
+  - "&9&l-------------------------------------------"
+  no-friends: "&eYou do not have any friends!"
+  requests:
+  - "&e--- Friend requests (Page %0% of %1%) ---"
+  no-request:
+  - "&9&l-------------------------------------------"
+  - "&cThat person hasn't invited you to be friends! Try &e/friend %0%"
+  - "&9&l-------------------------------------------"
+  toggle:
+  - "&9&l-------------------------------------------"
+  - "&eFriend requests %0%!"
+  - "&9&l-------------------------------------------"
+  request-not-allowed:
+  - "&9&l-------------------------------------------"
+  - "&cYou aren't allowed to send friend requests to this person!"
+  - "&9&l-------------------------------------------"
+  removeall:
+  - "&9&l-------------------------------------------"
+  - "&eYou have removed all of your friends!"
+  - "&9&l-------------------------------------------"
+  unfriended:
+  - "&9&l-------------------------------------------"
+  - "%0% &eremoved you from their friends list!"
+  - "&9&l-------------------------------------------"
+  friends-list-cleared:
+  - "&9&l-------------------------------------------"
+  - "&eYou have removed everyone from your friends list!"
+  - "&9&l-------------------------------------------"
+  friends-list-already-empty:
+  - "&9&l-------------------------------------------"
+  - "&cYour friends list is already empty!"
+  - "&9&l-------------------------------------------"
+  not-friends:
+  - "&9&l-------------------------------------------"
+  - "&c%0% &eisn't in your friends list!"
+  - "&9&l-------------------------------------------"
+  unfriend-sender:
+  - "&9&l-------------------------------------------"
+  - "&eYou removed %0% &efrom your friends list!"
+  - "&9&l-------------------------------------------"
+  unfriend-receiver:
+  - "&9&l-------------------------------------------"
+  - "&e%0% &eremoved you from their friends list!"
+  - "&9&l-------------------------------------------"
+  cannot-friend-yourself:
+  - "&9&l-------------------------------------------"
+  - "&eYou can't add yourself as a friend!"
+  - "&9&l-------------------------------------------"
+  already-friends:
+  - "&9&l-------------------------------------------"
+  - "&cYou're already friends with this person!"
+  - "&9&l-------------------------------------------"
+  join: "&e%0% joined."
+  quit: "&e%0% left."

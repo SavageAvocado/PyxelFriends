@@ -1,0 +1,13 @@
+name: PixelFriends
+description: None.
+
+author: SavageAvocado.
+website: savagedev.net
+
+main: net.savagedev.friends.PyxelFriends
+version: ${version}
+
+commands:
+  friend:
+    aliases: [friends, f]
+    description: No.
